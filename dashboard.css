@@ -18,7 +18,13 @@ input::-webkit-inner-spin-button {
 body {
     background-color: #1E1E1E;
     color: #f0f0f0;
-    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1246px; /*1216 + 15x2 (padding de cada lado) = 1246*/
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 header {
@@ -30,6 +36,23 @@ header .container {
     justify-content: space-between;
     align-items: center;
     padding: 30px;
+}
+
+#sair {
+    position: relative;
+    overflow: hidden;
+    padding: 10px 40px;
+    background: #3d3c3a;
+    color: #f0f0f0;
+    border-radius: 50px;
+    border: 2px solid #AAAAAA;
+    box-shadow: 0 0 25px rgba(0, 0, 0, .4);
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 16px;
+    font-weight: 600;
+    transition: color 0.2s ease;
+    letter-spacing: .04em;
 }
 
 h2 {
@@ -65,7 +88,7 @@ input {
     font-size: 16px;
 }
 
-button {
+#calcular {
     position: relative;
     overflow: hidden;
     padding: 15px 40px;
@@ -76,7 +99,7 @@ button {
     cursor: pointer;
     font-weight: bolder;
     display: flex;
-    margin: 60px auto;
+    margin: 60px auto 200px;
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
@@ -133,6 +156,16 @@ top: 0;
     align-items: center;
     justify-content: center;
     letter-spacing: 0.01em;
+}
+
+footer {
+    background-color: #3d3c3a;
+    padding: 30px 0 10px;
+}
+
+footer p {
+    text-align: center;
+    color: #aaaaaa;
 }
 
 /* Responsividade para telas menores */

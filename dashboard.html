@@ -7,7 +7,7 @@
     <title>Calculadora OddBox</title>
     <script src="https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"></script>
     <script src="auth.js"></script>
-    <link rel="stylesheet" href="/dashboard.css">
+    <link rel="stylesheet" href="./dashboard.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
     <header>
         <div class="container">
             <div class="logo">Logo</div>
-            <button onclick="logout()"><span>Sair</span></button>
+            <button id="sair" class="botao-duplo" onclick="logout()"><span>Sair</span></button>
         </div>
     </header>
     <h2>Calculadora de Arbitragem</h2>
@@ -39,9 +39,15 @@
     <label for="odd2">Time 2:</label>
     <input type="number" id="odd2" step="0.01" placeholder="Odd 2 (Ex: 2.90)">
 
-    <button class="botao-duplo" onclick="calcular()"><span>Calcular</span></button>
+    <button id="calcular" class="botao-duplo" onclick="calcular()"><span>Calcular</span></button>
 
     <div id="resultado" class="resultado" style="display: none;"></div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 OddBox - Criado por apostadores para apostadores.</p>
+        </div>
+    </footer>
 
     <!--Biblioteca Lenis -->
 	<script src="https://unpkg.com/@studio-freight/lenis@1.0.36/bundled/lenis.min.js"></script>
