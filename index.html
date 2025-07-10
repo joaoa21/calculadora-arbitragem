@@ -4,16 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
+    <title>OddBox</title>
     <script src="https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"></script>
     <script src="auth.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header style="display: flex; justify-content: space-between; align-items: center; padding: 20px;">
-        <div class="logo">🚀 SuaLogo</div>
-            <button onclick="login()" style="padding: 10px 20px; cursor: pointer;">Entrar</button>
-</header>
+    <header>
+        <div class="container">
+            <div class="logo">Logo</div>
+            <button class="botao-duplo" onclick="login()"><span>Entrar</span></button>
+        </div>
+    </header>
+
+    <section class="s-hero">
+        <div class="container">
+            <div class="text">
+                <h1>Calcule.&nbsp;&nbsp;&nbsp;Cubra.&nbsp;&nbsp;&nbsp;Lucre.</h1>
+                <p>A calculadora de arbitragem feita para quem aposta com inteligência. </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="s-quadros">
+        <div class="container">
+            <div class="quadros">
+                <div class="quadro">
+                    <h2>Cobertura total</h2>
+                    <p>Simule arbitragem com ou sem empate em segundos.</p>
+                </div>
+
+                <div class="quadro">
+                    <h2>Resultados em tempo real</h2>
+                    <p>Veja os lucros e perdas para cada cenário automaticamente.</p>
+                </div>
+
+                <div class="quadro">
+                    <h2>Simples e intuitiva</h2>
+                    <p>Ferramenta 100% online, e de fácil utilização.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 OddBox - Criado por apostadores para apostadores.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
