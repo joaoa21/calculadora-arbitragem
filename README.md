@@ -11,7 +11,7 @@ Ela analisa diferentes odds, distribui automaticamente o valor da aposta e diz s
 - Interface simples e rápida, sem necessidade de cadastro
 
 ## 🎯 Como usar
-1. Acesse a [Calculadora de Arbitragem](https://joaoa21.github.io/calculadora-arbitragem/)
+1. Acesse a [Calculadora de Arbitragem](https://oddbox.vercel.app/)
 2. Preencha:
    - As odds (Time 1, Empate opcional, Time 2)
    - O valor que deseja apostar
@@ -38,7 +38,7 @@ R$ 3.38 (16.91%)
 ```
 
 ## 🌐 Acesse agora
-👉 [https://joaoa21.github.io/calculadora-arbitragem/](https://joaoa21.github.io/calculadora-arbitragem/)
+👉 [https://oddbox.vercel.app/](https://oddbox.vercel.app//)
 
 ## 🛠️ Tecnologias utilizadas
 - HTML5
